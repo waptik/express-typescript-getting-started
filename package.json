@@ -1,0 +1,26 @@
+{
+  "name": "express-typescript-getting-started",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "cross-env NODE_ENV=dev concurrently \"npx tsc --watch\" \"nodemon dist/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.7.5",
+    "concurrently": "^9.0.1",
+    "nodemon": "^3.1.7",
+    "typescript": "^5.6.3"
+  }
+}
