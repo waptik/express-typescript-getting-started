@@ -32,4 +32,4 @@ backend:
       # The entry point for the function.
       entry: dist/index.js
       # The compatibility of the function handler.
-      type: aws
+      type: httpServer
